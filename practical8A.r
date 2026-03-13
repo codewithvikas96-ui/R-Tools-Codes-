@@ -22,3 +22,9 @@ cat("Probability that at least 7 bulbs are defective =", prob2, "\n")
 # 3️⃣ Probability that at most 3 bulbs are defective
 prob3 <- pbinom(3, size = n, prob = p)
 cat("Probability that at most 3 bulbs are defective =", prob3)
+
+
+
+# pbinom => atmost
+# dbinom => exactly 
+# 1 - pbinom => atleast 
